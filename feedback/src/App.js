@@ -5,9 +5,11 @@ function App() {
 
   return (
     <>
+    {/* sending in props to the Header component via text="" */}
     <Header />
 
     <div className="container">
+      <h1>My App</h1>
     <FeedbackItem />
 
     </div>
